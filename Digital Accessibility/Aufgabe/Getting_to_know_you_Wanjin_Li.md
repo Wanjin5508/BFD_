@@ -1,0 +1,6 @@
+
+Als Nicht-Muttersprachler, der in Dresden lebt, kann ich die Erfahrungen von Frau Anna, die Legasthenikerin ist, nachvollziehen. Besonders in meinem ersten Jahr in Deutschland hatte ich eine ähnliche Legasthenie, die meiner Meinung nach hauptsächlich auf meine mangelnden Deutschkenntnisse zurückzuführen war. An der Universität musste ich oft Suchmaschinen benutzen, um herauszufinden, was ich wissen wollte, und ich wurde oft von Google wegen meiner Rechtschreibung korrigiert. Das liegt daran, dass sich meine Muttersprache grundlegend von der westlichen Alphabetschrift unterscheidet und ich daher kein Gefühl für Buchstaben habe.
+
+Eine ähnliche Erfahrung machte ich mit der Geschichte von Herrn Alexander, der farbenblind ist. In meinem BWL-Kurs im ersten Semester stellte mir der Professor sowohl pdf- als auch gedruckte Folien zur Verfügung und ich kaufte mir die gedruckte Version, um mir den Zugang zu den Folien zu erleichtern. Leider war die gedruckte Version nur schwarz-weiß und nicht farbig, aber der Professor benutzte in der Vorlesung Farben, um verschiedene Kurven im Koordinatensystem zu unterscheiden. Das ist für mich während der Vorlesung oft verwirrend.
+
+Seh- und Hörbehinderungen haben mich bisher nicht beeindruckt.
