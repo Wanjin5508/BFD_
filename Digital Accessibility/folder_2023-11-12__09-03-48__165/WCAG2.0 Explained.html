@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>4-11</title>
+    <style type="text/css">
+        .button-style {
+            background: #eee;
+            text-decoration: none;
+            color: #333;
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 3px 5px;
+            border: 1px solid #aaa;
+            border-radius: 3px;
+            cursor: default;
+        }
+
+        .button-style:hover {
+            background-color: #e0e0e0;
+            border-color: #888;
+            box-shadow: 0 0 2px #ccc;
+        }
+
+        .button-style:active {
+            vertical-align: -1px;
+        }
+
+        table td {
+            border: 1px solid #B9CFE7;
+        }
+
+        #cell1 {
+            background-color: #ffffcc;
+        }
+
+        #cell2 {
+            background-color: #00ff00;
+            color: #ffff00;
+        }
+
+        #cell3 {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        #cell4 {
+            background-color: #990099;
+            color: #1d0dff;
+        }
+
+        table tr, table th {
+            border: 1px solid #b9cfe7;
+            padding: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .logos > img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    </style>
+</head>
+<body>
+<h1>WCAG 2.0 Explained</h1>
+<p>
+    The WCAG 2.0(Web Content Accessibility Guidelines) were developed by
+    the W3C and explain how to make web content accessible to people with
+    disabilities. WCAG 2.0 has a total number of 12 guidelines that are
+    grouped in four principles for creating accessible web content:
+</p>
+<ul>
+    <li>Perceivable</li>
+    <li>Operable</li>
+    <li>Understandable</li>
+    <li>Robust</li>
+</ul>
+<p>
+For each of these guidelines success criterias and techniques how to
+accomplish were developed. By this web developers can check the level
+of conformance of their content to the WCAG 2.0. There are 3 levels of
+conformance, starting from A(lowest), AA to AAA(highest).
+</p>
+<p> Lets take a deeper look in the four priciples of the WCAG2.0.</p>
+
+
+<h2>Principle 1:Perceivable</h2>
+<p>
+    Information and user interface components must be presentable to users
+    in ways they can perceive. This means that users must be able to
+    perceive the information being presented (it can't be invisible to all
+    of their senses).
+    <br> An example for this principle is missing alternative text for
+    images. Alternative text provides a textual alternative to non-text
+    content in web pages. Alternative text serves several functions:
+</p>
+<ul>
+    <li>It is read by screen readers in place of images allowing the
+        content and function of the image to be accessible to those with
+        visual or certain cognitive disabilities.
+    </li>
+    <li>It is displayed in place of the image in browsers if the
+        image file is not loaded or when the user has chosen not to view
+        images.
+    </li>
+    <li>It provides a semantic meaning and description to images
+        which can be read by search engines or be used to later determine the
+        content of the image from page context alone.
+    </li>
+</ul>
+
+<p>
+    Take a look at this image link:
+    <br>
+    <a href=""><img alt="" src="ButtonImage.png"
+                    style="width: 100px; height: 50px;"></a>
+    <br> For a sighted person it is clear that this link will take the
+    user to a shop where useres are able to buy items. Web pages are
+    created with Hyper Text Mark-up Language, commonly referred to as HTML.
+    Let's take a look at the source HTML that created this image link:
+</p>
+<div class="source_code">&lt;a href=""&gt;&lt;img alt=""
+    src="ButtonImage.png"&gt;&lt;/a&gt;</div>
+
+
+<p>As you can see the the alt-Tag(alt="") in the image element
+    is empty, providing no information for the screenreader of a blind
+    person. Therefore blind people would just see this link to an unknown
+    target. This is not only bad for the blind person but also bad for the
+    maintainors of this webshop as he would lose potential customers.
+    <br> Another example are inaccesible CAPTCHA's. CAPTCHA is the
+    abbreviation for "Completely Automated Public Turing test to Tell
+    Computers and Humans Apart". The most common example of CAPTCHA is
+    distorted images of text used as part of a login or registration
+    process as seen in this example:
+    <br>
+    <img alt="A pure text captcha with no alternatives to text input"
+         src="captcha.png" style="width: 333px; height: 163px;">
+
+    <br> This example CAPTCHA uses randomly generated images without
+    text or speech alternatives so therefore blind people that use a
+    screenreader to operate a computer or other people who are unable to
+    access content of the captcha cannot solve the CAPTCHA. Such CAPTCHAS
+    are very common in registration forms. If they are inaccessible
+    maintainers of webpages would block users that cannot solve the
+    CAPTCHA.
+</p>
+
+<h2>Principle 2:Operable</h2>
+User interface components and navigation must be operable. This means
+that users must be able to operate the interface (the interface cannot
+require interaction that a user cannot perform).
+
+<br>An example for this principle would be that the userinterface
+must be operable with the user of a keyboard alone, as it is for many
+people(e.g. people with physical disabilies) not possible to use a
+pointing device like the mouse. HTML provides a lot of standard
+elements like buttons, input fields and paragraphs to give developers
+of web-pages to create webcontent for different purposes. When
+developers of web-pages use those elements for their designated
+purpose, and refer to accessibility standards like the WCAG 2.0, people
+that cannot use the mouse are able to operate web-pages just with the
+keyboard alone.
+<br> Look at the following example buttons:
+
+<br>
+<script>
+    function sayHello() {
+        alert("Hello!");
+    }
+</script>
+<button class="button-style" onclick="sayHello()">Button 1</button>
+<br>
+<br>
+<span class="button-style" onclick="sayHello()">Button 2</span>
+<br> Try to navigate the focus with your keyboard using the
+Tabulator-key to the button with the label "Button 1" and press the
+enter key to activate it. When finished try the same thing with the
+button labelled as "Button 2".
+<br> You may notice that you are not able to focus the "Button 2"
+with your keyboard. The second button is actually only a text-span that
+was styled and programmed to appear as a button. Therefore it cannot be
+focused by the keyboard and as a result not operated by a user that is
+not able to use a mouse. HTML would also provide the tools to make such
+a span keyboard accessible and developers could also give it a proper
+role, which would be the button role in this example. However a better
+way would be to take the proper widget for the element in the first
+place and not to adjust another widget to fulfil a different purpose.
+
+
+<h2>Principle 3:Understandable</h2>
+<p>
+Information and the operation of user interface must be understandable.
+This means that users must be able to understand the information as
+well as the operation of the user interface. Besides that user
+interfaces should be built in a way to help users to avoid and to
+correct mistakes. We all make mistakes and errors and we all expect
+from ICT that it supports avoiding or recovering from mistakes. Here is
+an example for a bad userinterface:
+<br>
+<img alt="An example input form to edit an account. The userinterface displays a form where an account can be edited, with three buttons: Ok, Edit Account and Cancel."
+     src="ui-example.PNG">
+<br> For useres it is unclear what the "OK"-button really does.
+Will the changes to the account made be applied or not? Another example
+can be seen in the following image:
+<br>
+<img alt="An example system dialog. The dialog displays a message stating that an error has occurred with an OK and a Cancel button."
+     src="error.PNG">
+<br> This message just informs the user that something went wrong
+but gives no indication for the reason of that error nor does it help
+the user to find the error. Therefore the user is left alone to guess
+what he has made wrong.
+</p>
+<h2>Robust</h2>
+<p>
+Content must be robust enough that it can be interpreted reliably by a
+wide variety of user agents, including assistive technologies. In this
+case user agents are any software that retrieves and presents Web
+content, like browsers (Chrome, Firefox, Safari...), media players
+(Quicktime, Realplayer, Windows Media Playe...), plugins (e.g. those
+that help your browser perform specific functions), and, other
+programs, including assistive technologies (pointers, magnifiers...).
+Websites must therefore be created to support all this technologies.
+</p>
+
+<h2>License Terms, Acknowledgment & Disclaimer</h2>
+<p>
+Author/copyright: <a href="http://www.jku.at/content">Peter Heumader, Johannes Kepler Universität Linz, 2015</a><br>
+This resource (including the referenced videos and the captions file) is hereby made available to the public under the
+terms of the Creative Commons by Attribution (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>) license.<br>
+The creation of this resource has been partially funded by the ERASMUS+ grant program of the European Union under grant
+no. 2014-1-DE01-KA203-000679 (<a href="http://gpii.eu/moocap/">MOOC Accessibility Partnership</a>).<br>
+Neither the European Commission nor the project's national funding agency DAAD are responsible for the content or liable for any losses or damage resulting of the use of these resources.
+</p>
+<div class="logos">
+
+    <img alt="Erasmus+ Logo" src="erasmuslogo.png">
+    <img alt="Moocap Logo"  src="moocaplogo.png">
+</div>
+</body>
+</html>
