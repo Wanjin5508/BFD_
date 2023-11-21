@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TU Dresden</title>
+        <style>
+            body {
+                display: flex;
+                align-items: center; /* 垂直居中 */
+            }
+    
+            h1 {
+                margin-right: 10px; /* 设置图像和标题之间的间距 */
+                flex-shrink: 0; /* 防止标题缩小 */
+            }
+        </style>
+    </head> 
+
+    <body>
+        <!-- mehrstufige Struktur-->
+        <div id="list of links">
+            <h1>Willkommen an der TU Dresden</h1>
+            <!-- 1. Darstellungsform: image-->
+            <li aria-label="Zur Homepage von TU Dresden">
+                <a href="https://tu-dresden.de">
+                    <img src="logo.png" alt="tud_logo" width="120" height="50"> 
+                </a>
+            </li>
+
+            <!-- 2. Darstellungsform: Button-->
+            <a href="https://tu-dresden.de/leichte-sprache">
+                <button>
+                    <span aria-label="Zur Seite über TU Dresden in leichte Sprache">leichte Sprache</span>
+                </button>
+            </a>
+
+
+            <!-- 3. Darstellungsform: ungeordenete Liste-->
+            <ul>
+                <li class="listitem" aria-label="Navigation zu Bereich Mathematik und Naturwissenschaften">
+                    <a href="Bereich_Mathematik_und_Naturwissenschaften.html">
+                        Bereich Mathematik und Naturwissenschaften
+                    </a>
+                </li>
+
+                <li class="listitem" aria-label="Navigation zu Bereich Geistes- und Sozialwissenschaften">
+                    <a href="Bereich_Geistes-_und_Sozialwissenschaften.html">
+                        Bereich Geistes- und Sozialwissenschaften
+                    </a>
+                </li>
+
+                <li class="listitem" aria-label="Navigation zu Bereich Ingenieurwissenschaften">
+                    <a href="Bereich_Ingenieurwissenschaften.html">
+                        Bereich Ingenieurwissenschaften
+                    </a>
+                </li>
+
+                <li class="listitem" aria-label="Navigation zu Bereich Bau und Umwelt">
+                    <a href="Bereich_Bau_und_Umwelt.html">
+                        Bereich Bau und Umwelt
+                    </a>
+                </li>
+
+                <li class="listitem" aria-label="Navigation zu Bereich Medizin">
+                    <a href="Bereich_Medizin.html">
+                        Bereich Medizin
+                    </a>
+                </li>
+
+                <li class="listitem" aria-label="Navigation zu Einrichtungen">
+                    <a href="Einrichtungen.html">
+                        Berichtungen
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- 4. Darstellungsform: Table-->
+        <div>
+
+        </div>
+
+
+    </body>
+</html>
