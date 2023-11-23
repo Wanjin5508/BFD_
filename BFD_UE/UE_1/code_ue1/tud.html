@@ -8,6 +8,7 @@
             body {
                 display: flex;
                 align-items: center; /* 垂直居中 */
+                flex-direction: column;
             }
     
             h1 {
@@ -76,12 +77,48 @@
             </ul>
         </div>
 
-
-        <!-- 4. Darstellungsform: Table-->
-        <div>
-
+        <main>
+        <div id="inhalt"></div>
+            <ul>
+                <li class="listitem" aria-label="Navigation zu STUDIEREN"><a href="STUDIEREN.html">STUDIEREN</a></li>
+                <li class="listitem" aria-label="Navigation zu GESELLSCHAFT WANDEL"><a href="GESELLSCHAFT WANDEL.html">GESELLSCHAFT WANDEL</a></li>
+                <li class="listitem" aria-label="Navigation zu EREAS OF EXCELLENCE"><a href="EREAS OF EXCELLENCE.html">EREAS OF EXCELLENCE</a></li>
+                <li class="listitem" aria-label="Navigation zu TRANSFER & ENTREPRENEURSHIP"><a href="TRANSFER & ENTREPRENEURSHIP.html">TRANSFER & ENTREPRENEURSHIP</a></li>
+                <li class="listitem" aria-label="Navigation zu CAMPUS ENTDECKEN"><a href="CAMPUS ENTDECKEN.html">CAMPUS ENTDECKEN</a></li>
+                <li class="listitem" aria-label="Navigation zu DRESDEN-CONCEPT"><a href="DRESDEN-CONCEPT.html">DRESDEN-CONCEPT</a></li>
+            </ul>
         </div>
 
+        <div>
+            <h2>Oft Gesucht</h2>
+        </div>
+
+        <!-- 4. Darstellungsform: Table-->
+        <div class="text">
+            <table id="tabelle">
+            
+                <table border = "1" width = "400px" height = "200px">
+            
+                    <style>
+                    table{
+                text-align:center;
+                }
+                    </style>
+                <tr>
+                    <td><a href="Studienangebot.html" aria-label="Studienangebot">Studienangebot</a></td>
+                    <td><a href="Telefonverzeichnis" aria-label="Telefonverzeichnis">Telefonverzeichnis</a></td>
+                </tr>
+                <tr>
+                    <td><a href="Notfallnummern" aria-label="Notfallnummern">Notfallnummern</a></td>
+                    <td><a href="Stellenangebote" aria-label="Stellenangebote">Stellenangebote</a></td>
+                </tr>
+                <tr>
+                    <td><a href="Kurz-URL-Dienst" aria-label="Kurz-URL-Dienst">Kurz-URL-Dienst</a></td>
+                    <td><a href="Presse" aria-label="Kurz-URL-Dienst">Presse</a></td>
+                </tr>
+            </table>
+        </div>
+    </main>
 
     </body>
 </html>
