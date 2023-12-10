@@ -95,8 +95,7 @@ Reihenfolge bspw. Screenreader den Inhalt widergeben.
 ## Metadaten
 
 • Die Dokumenteigenschaften helfen allen Nutzern und Indizierprogrammen bei der Einordnung des Dokumentes.
-• Die Metadaten werden festgelegt unter
-Datei → Informationen → Eigenschaften
+• Die Metadaten werden festgelegt unter `Datei → Informationen → Eigenschaften`
 • Hier sollte zumindest der Titel sowie der Autor gepflegt werden.
 
 ## Barrierefreiheit überprüfen
@@ -114,5 +113,7 @@ Ansicht → Gliederungsansicht
 ![[Pasted image 20231209162429.png]]
 
 
+# Aufgabe
+![[Pasted image 20231210152828.png]]
 
 
