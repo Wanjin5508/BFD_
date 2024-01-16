@@ -56,10 +56,55 @@ Skala (Wertbereich, Intervalle)
 ### Herausforderungen
 oft nur eine mögliche Interpretation -> abhängig vom Wissen der erstellenden Person
 
-scatterplot: einzelnen Datenwert aufzulisten ist nicht sinnvoll
+- scatterplot: einzelnen Datenwert aufzulisten ist nicht sinnvoll
+	- statistische Zusammenfassung: eine Korrelation? Scatter? Trend? ... 
+
+### Wahrnehmung
+- **nur visuelle Aspekte beschreiben! -> Wahrnehmung ist subjektiv** 
+	- bspw. wie lief die Kurve? Steil? -> Nein!, man darf nicht so beschreiben. Man soll nur so: steigend, ggf. Winkel
+
+
+### Daten
+- Kurvenverläufe
+- Achten auf **Subjektive Beschreibung** 
+
+
+## Aufgabe 1 a) Anfertigen eines Alt-Textes und einer Beschreibung
+
+
+## Aufgabe 1 b) HTML
+mind 2 unterschiedlichen Varianten (aria-describedby, link -> s.VL Teil 1)
+
+#### Exkurs OSS Screen reader
+NVDA
+
+#### Mobil: Talkback, VoiceOver
+
+
+## Aufgabe 1 Taktile Grafiken
+### Allgemeine Richtlinien
+- Ursprüngliche Aussage
+- Reduzierung der Komplexität
+- Texturen, Linienstile und Punktsymbole sparsam verwenden 
+- Verwendung von Braille-Schrift
+- ...
+
+### Mindestmaße
+- Linienlänge
+- Versenkung
+- sich kreuzende Linien
+- Texturen
+
+### Füllmuster / Texturen
+s.40
+
+
+## Aufgabe 1 c)
+
+
+## Aufgabe 1 d) Zugängliche Diagramme in SVG
+Beliebiges Diagramm in SVG erstellen mit mind.10 Datenwerten
 
 
 
-
-
-
+## Aufgabe 2 Taktile Gebäudekarten (Indoor)
