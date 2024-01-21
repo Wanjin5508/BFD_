@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="450">
+  <!-- 图表标题 -->
+  <text x="300" y="20" text-anchor="middle" font-size="18" fill="black" tabindex="1">Speiseeisverkauf pro Monat in 2023</text>
+
+  <!-- Y轴标题 -->
+  <text x="20" y="140" transform="rotate(-90 20,150)" text-anchor="middle" font-size="14" fill="black" tabindex="2" aria-label="vertikale Achse">Verkauf in Liter</text>
+
+  <!-- X轴标题 -->
+  <text x="380" y="240" text-anchor="middle" font-size="14" fill="black" tabindex="3">Monat</text>
+
+  <!-- Y轴线 -->
+  <line x1="50" y1="20" x2="50" y2="200" stroke="black" stroke-width="2" />
+
+  <!-- X轴线 -->
+  <line x1="50" y1="200" x2="660" y2="200" stroke="black" stroke-width="2" />
+
+  <!-- Y轴刻度标签 -->
+  <text x="40" y="20" text-anchor="end" font-size="12" fill="black">500</text>
+  <text x="40" y="65" text-anchor="end" font-size="12" fill="black">375</text>
+  <text x="40" y="110" text-anchor="end" font-size="12" fill="black">250</text>
+  <text x="40" y="155" text-anchor="end" font-size="12" fill="black">125</text>
+  <text x="40" y="200" text-anchor="end" font-size="12" fill="black">0</text>
+
+  <!-- X轴刻度标签 -->
+  <text x="75" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="4">1</text>
+  <text x="125" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="5">2</text>
+  <text x="175" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="6">3</text>
+  <text x="225" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="7">4</text>
+  <text x="275" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="8">5</text>
+  <text x="325" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="9">6</text>
+  <text x="375" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="10">7</text>
+  <text x="425" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="11">8</text>
+  <text x="475" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="12">9</text>
+  <text x="525" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="13">10</text>
+  <text x="575" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="14">11</text>
+  <text x="625" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="15">12</text>
+
+  <!-- 定义每个月的分组 -->
+  <g id="quarter1" role="group">
+    <!-- 1月，2月，3月 -->
+    <rect x="50" y="150" width="50" height="50" fill="blue" aria-labelledby="rect1">
+      <title id="rect1">Speiseeisverkauf im Januar</title>
+      <desc>Verkaufsmenge im Januar</desc>
+    </rect>
+    
+    <rect x="100" y="170" width="50" height="30" fill="#005180" aria-labelledby="rect2">
+      <title id="rect2">Speiseeisverkauf im Februar</title>
+      <desc>Verkaufsmenge im Februar</desc>
+    </rect>
+
+    <rect x="150" y="160" width="50" height="40" fill="#c8ff00" aria-labelledby="rect3">
+      <title id="rect3">Speiseeisverkauf im März</title>
+      <desc>Verkaufsmenge im März</desc>
+    </rect>
+  </g>
+
+  <g id="quarter2" role="group">
+    <!-- 4月，5月，6月 -->
+    <rect x="200" y="120" width="50" height="80" fill="#00ffe5" aria-labelledby="rect4">
+      <title id="rect4">Speiseeisverkauf im April</title>
+      <desc>Verkaufsmenge im April</desc>
+    </rect>
+
+    <rect x="250" y="110" width="50" height="90" fill="rgba(127,185,126,0.635)" aria-labelledby="rect5">
+      <title id="rect5">Speiseeisverkauf im Mai</title>
+      <desc>Verkaufsmenge im Mai</desc>
+    </rect>
+
+    <rect x="300" y="80" width="50" height="120" fill="orange" aria-labelledby="rect6">
+      <title id="rect6">Speiseeisverkauf im Juni</title>
+      <desc>Verkaufsmenge im Juni</desc>
+    </rect>
+  </g>
+
+  <g id="quarter3" role="group">
+    <!-- 7月，8月，9月 -->
+    <rect x="350" y="60" width="50" height="140" fill="#eeff00" aria-labelledby="rect7">
+      <title id="rect7">Speiseeisverkauf im Juli</title>
+      <desc>Verkaufsmenge im Juli</desc>
+    </rect>
+
+    <rect x="400" y="45" width="50" height="155" fill="#77ff00" aria-labelledby="rect8">
+      <title id="rect8">Speiseeisverkauf im August</title>
+      <desc>Verkaufsmenge im August</desc>
+    </rect>
+
+    <rect x="450" y="55" width="50" height="145" fill="#ff7700" aria-labelledby="rect9">
+      <title id="rect9">Speiseeisverkauf im September</title>
+      <desc>Verkaufsmenge im September</desc>
+    </rect>
+  </g>
+
+  <g id="quarter4" role="group">
+    <!-- 10月，11月，12月 -->
+    <rect x="500" y="70" width="50" height="130" fill="#ffcc00" aria-labelledby="rect10">
+      <title id="rect10">Speiseeisverkauf im October</title>
+      <desc>Verkaufsmenge im Oktober</desc>
+    </rect>
+
+    <rect x="550" y="130" width="50" height="70" fill="#6600ff" aria-labelledby="rect11">
+      <title id="rect11">Speiseeisverkauf im November</title>
+      <desc>Verkaufsmenge im November</desc>
+    </rect>
+
+    <rect x="600" y="120" width="50" height="80" fill="#b300ff" aria-labelledby="rect12">
+      <title id="rect12">Speiseeisverkauf im Dezember</title>
+      <desc>Verkaufsmenge im Dezember</desc>
+    </rect>
+  </g>
+
+  <!-- 使用<use>引用每个季度的分组 -->
+  <use xlink:href="#quarter1" tabindex="16"/>
+  <use xlink:href="#quarter2" tabindex="17"/>
+  <use xlink:href="#quarter3" tabindex="18"/>
+  <use xlink:href="#quarter4" tabindex="19"/>
+</svg>
