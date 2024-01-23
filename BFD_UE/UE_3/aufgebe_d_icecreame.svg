@@ -109,8 +109,8 @@
   </g>
 
   <!-- 使用<use>引用每个季度的分组 -->
-  <use xlink:href="#quarter1" tabindex="16"/>
-  <use xlink:href="#quarter2" tabindex="17"/>
-  <use xlink:href="#quarter3" tabindex="18"/>
-  <use xlink:href="#quarter4" tabindex="19"/>
+  <use href="#quarter1" tabindex="16"/>
+  <use href="#quarter2" tabindex="17"/>
+  <use href="#quarter3" tabindex="18"/>
+  <use href="#quarter4" tabindex="19"/>
 </svg>
