@@ -39,4 +39,34 @@
 
 
 # 1.3 Webseite nach WCAG begutachten
-[[UE1_1_3_LSG_version_2.pdf]]
+[[UE1_1_3_LSG_version_2.pdf|Begutachten]]
+
+# 2.1 Poster
+Gestalten Sie für die in der vorherigen Übung gestaltete One-
+Pager-Website bzw. in Anlehnung an die Website aus dem
+öffentlichen Bereich ein ansprechendes Poster und beachten Sie
+dabei die zuvor gegebenen Regeln zur Barrierefreiheit. Setzen Sie
+das Poster sowohl mit PowerPoint (ein A0-Poster) als auch mit
+Word (mehrere A3-Poster) um.
+-> [[Poster.pdf|Poster mit PowerPoint]]
+-> [[UE2_1_Word.pdf|Poster mit Word]]
+
+# 2.2 Barrierefreies PDF-Formular
+Entwickeln Sie passend zum Inhalt Ihres One-Pagers
+bzw. der öffentlichen Website ein Registrierungs- oder
+Bestellformular, das Sie in Word o. ä. vorbereiten, mit
+interaktiven Formularelementen füllen und
+anschließend auf Barrierefreiheit prüfen bzw. die
+Barrierefreiheit verbessern.
+-> [[PDF_Formular.pdf]]
+
+# 3.1 Richtlinien für taktile Grafiken & Beschreibungen
+![[Pasted image 20240124133319.png]]
+[[Barrierefreie Dokumente U3 A1.pdf|Aufgabe a) - c)]]
+
+### Aufgabe d)
+![[Pasted image 20240124135651.png]]
+
+
+
+

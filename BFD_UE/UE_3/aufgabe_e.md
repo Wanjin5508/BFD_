@@ -1,4 +1,4 @@
-![[Pasted image 20240121172116.png]]
+[[aufgebe_d_icecreame.svg]]
 
 > Prompt: please generate a description of this diagram for the blind people, so that they can also understand the content in this graph as they can see
 

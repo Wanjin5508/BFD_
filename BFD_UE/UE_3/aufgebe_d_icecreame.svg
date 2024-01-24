@@ -22,18 +22,18 @@
   <text x="40" y="200" text-anchor="end" font-size="12" fill="black">0</text>
 
   <!-- X轴刻度标签 -->
-  <text x="75" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="4">1</text>
-  <text x="125" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="5">2</text>
-  <text x="175" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="6">3</text>
-  <text x="225" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="7">4</text>
-  <text x="275" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="8">5</text>
-  <text x="325" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="9">6</text>
-  <text x="375" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="10">7</text>
-  <text x="425" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="11">8</text>
-  <text x="475" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="12">9</text>
-  <text x="525" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="13">10</text>
-  <text x="575" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="14">11</text>
-  <text x="625" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="15">12</text>
+  <text x="75" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="4" aria-label="Januar">1</text>
+  <text x="125" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="5" aria-label="Februar">2</text>
+  <text x="175" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="6" aria-label="März">3</text>
+  <text x="225" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="7" aria-label="April">4</text>
+  <text x="275" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="8" aria-label="Mai">5</text>
+  <text x="325" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="9" aria-label="Juni">6</text>
+  <text x="375" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="10" aria-label="Juli">7</text>
+  <text x="425" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="11" aria-label="August">8</text>
+  <text x="475" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="12" aria-label="September">9</text>
+  <text x="525" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="13" aria-label="Oktober">10</text>
+  <text x="575" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="14" aria-label="November">11</text>
+  <text x="625" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="15" aria-label="Dezember">12</text>
 
   <!-- 定义每个月的分组 -->
   <g id="quarter1" role="group">
