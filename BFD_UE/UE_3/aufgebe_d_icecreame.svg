@@ -35,7 +35,7 @@
   <text x="575" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="14" aria-label="November">11</text>
   <text x="625" y="220" text-anchor="middle" font-size="12" fill="black" tabindex="15" aria-label="Dezember">12</text>
 
-  <!-- 定义每个月的分组 -->
+  <!-- 定义每个月的分组 -->       
   <g id="quarter1" role="group">
     <!-- 1月，2月，3月 -->
     <rect x="50" y="150" width="50" height="50" fill="blue" aria-labelledby="rect1">

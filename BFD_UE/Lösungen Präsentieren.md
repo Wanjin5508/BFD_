@@ -5,20 +5,20 @@
 ## Zwei Tasks definieren und mittels Tastaturbedienung ausführen
 ### Task 1: Herausfinden aller Masterstudiengänge der Fakultät Informatik
 - Mehrmals die "TAB"-Taste drücken, bis "Fakultäten & Einrichtungen" ausgewählt ist, siehe unten:
-	- ![[Pasted image 20231120152844.png|Fakultäten und Einrichtungen]]
+	- ![[Pasted image 20231120152844.png|500]]
 - Dann drücken "Enter" und es wird eine Tabelle mit allen Fakultäten und Einrichtungen der TU Dresden angezeigt.
-	- ![[Pasted image 20231120153037.png]]
+	- ![[Pasted image 20231120153037.png|500]]
 - Navigieren zur "Fakultät Informatik" und drücken "Enter"
-	- ![[Pasted image 20231120154535.png]]
+	- ![[Pasted image 20231120154535.png|500]]
 - Navigieren zur "Suche" per mehrmals Drücken an "tab" und geben "masterstudiengänge" ein.
 	- ![[Pasted image 20231120154745.png]]
 - Das Suchergebnis sieht so aus:
-	- ![[Pasted image 20231120152220.png]]
+	- ![[Pasted image 20231120152220.png|500]]
 
 
 ### Task 2: Auf die Seite zur Barrierefreiheit gehen und das Einführungsvideo in Gebärdensprache über die TUD ansehen.
 - Mehrmals auf die TAB-Taste klicken, bis "Barrierefreiheit" oben auf der Seite ausgewählt ist, und dann die Eingabetaste drücken.
-	- ![[Pasted image 20231121210803.png]]
+	- ![[Pasted image 20231121210803.png|450]]
 - Nach dem Erscheinen der barrierefreien Optionen oben auf der Seite dreimal auf die TAB-Taste klicken, um zur Gebärdensprache-Seite zu gelangen.
 	- ![[Pasted image 20231121210837.png]]
 - Auf der Gebärdenspracheseite kann das Video nur abgespielt oder pausiert werden, wenn das Dreieckssymbol für die Wiedergabefunktion mit der TAB-Taste ausgewählt wird und anschließend die Eingabetaste gedrückt wird. 
@@ -31,8 +31,6 @@
 
 # 1.2 One-Pager mit ARIA annotieren
 -> siehe Code auf GitHub: https://github.com/Wanjin5508/BFD_.git
-![[Pasted image 20231120155610.png]]
-![[Pasted image 20231120155841.png]]
 
 ## Bewertung mit WAVE
 ![[Pasted image 20240124130245.png]]
@@ -67,6 +65,10 @@ Barrierefreiheit verbessern.
 ### Aufgabe d)
 ![[Pasted image 20240124135651.png]]
 
+![[Pasted image 20240124144912.png]]
 
+[[aufgabe_e]]
 
+# 3.2 Zugängliche Gebäudekarten
+[[Aufgabe 2.pdf]]
 
